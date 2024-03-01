@@ -1,4 +1,3 @@
----
 Terraform Module to provision an AWS EC2 instance with the latest amazon linux 2 ami and installed docker in it.
 
 Not intended for production use. It is an example module.
@@ -17,5 +16,3 @@ module "docker_instance" {
     source = "deryagungor14/docker-instance/aws"
     key_name = "techproed"
 }
-```
----
